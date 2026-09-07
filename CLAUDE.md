@@ -28,11 +28,16 @@ Otras decisiones ya cerradas en el documento (no reabrir sin razón fuerte):
 
 ## Etapa actual
 
-**Etapa 0 — Preparación.**
-Objetivo: cuentas creadas (GitHub, Supabase, Vercel, consola de Anthropic), editor instalado, proyecto Next.js vacío desplegado.
-Se considera terminada cuando hay una página propia visible en una URL pública.
+**Etapa 1 — Registro y sesión** (por empezar).
+Objetivo: correo y contraseña, cerrar sesión, recuperar contraseña. Terminada cuando se puede crear una cuenta y entrar.
 
-Historial de etapas completadas: ninguna todavía.
+## Historial de etapas completadas
+
+**Etapa 0 — Preparación.** ✅ Completada.
+- Proyecto Next.js (TypeScript + Tailwind + App Router) creado y desplegado en Vercel con URL pública.
+- Repositorio conectado y sincronizado con GitHub (`VicenteD-iaz/asistente-nutricional`).
+- Proyecto Supabase creado. Credenciales (`NEXT_PUBLIC_SUPABASE_URL`, `NEXT_PUBLIC_SUPABASE_ANON_KEY`) guardadas en `.env.local` (no versionado). Pendiente: agregar estas mismas variables en Vercel (Settings → Environment Variables) cuando la Etapa 1 empiece a necesitar conexión real a Supabase.
+- GitHub CLI (`gh`) autenticado localmente para futuras operaciones de Git.
 
 ## Regla de oro: no avanzar de etapa sin cerrar la anterior
 
